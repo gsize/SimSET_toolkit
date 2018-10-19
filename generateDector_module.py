@@ -1,0 +1,105 @@
+#!/usr/bin/python3
+
+def GenerateDet(detParms):
+    headString=[]
+    headString.append('##############################################################################')
+    headString.append('#')
+    headString.append('#       PARAMETER FILE FOR THE PHG SIMULATION')
+    headString.append('#')
+    headString.append('#       RUN NAME:	PET2L')
+    headString.append('#       CREATED:	2018 -8-30')
+    headString.append('#       OWNER:		gsize')
+    headString.append('#')
+    headString.append('#	This file gives parameters for PET block-based detectors.')
+    headString.append('#	It is intended for use with the fastTest suite.')
+    headString.append('#')
+    headString.append('#	This parameter file uses the block detector module.')
+    headString.append('#')
+    headString.append('##############################################################################')
+    headString.append('')
+    headString.append('# GENERAL DETECTOR MODULE PARAMETERS')
+    headString.append('	# DETECTOR TYPE')
+    headString.append('	# detector_type can be simple_pet or simple_spect (these just apply Gaussian')
+    headString.append('	# blurring to the energy with no tracking through the detector), or planar,')
+    headString.append('	# dual-headed, cylindrical, or block (these are photon-tracking simulations)')
+    headString.append('	ENUM detector_type = block')
+    headString.append('')
+    headString.append('	# FORCED INTERACTION')
+    headString.append('	# Photons can be forced to interact at least once in the detector array.  This')
+    headString.append('	# is an importance sampling feature.  It often slows down block detector simulations.')
+    headString.append('	BOOL do_forced_interaction = false')
+    headString.append('')
+    headString.append('	# ENERGY RESOLUTION')
+    headString.append('	# Energy resolution is specified as a \% full-width-half-maximum of a')
+    headString.append('	# reference energy.')
+    headString.append('	REAL    reference_energy_keV = 511.0')
+    headString.append('	REAL    energy_resolution_percentage = 16')
+    headString.append('')
+    headString.append('	# HISTORY FILE')
+    headString.append('	# If a file pathname is given below, a list-mode (or history) file is created')
+    headString.append('	# giving all the photon information needed to continue the simulation')
+    headString.append('	# after the detector module.  Such a file is very big!')
+    headString.append('	# STR	history_file = ""')
+    headString.append('	# The file can be made somewhat smaller by reducing the number of')
+    headString.append('	# parameters recorded per photon--however, the file can no longer be used')
+    headString.append('	# as input to the binning module.')
+    headString.append('	#STR history_params_file = ""')
+    headString.append('')
+    headString.append('# POSITIONING ALGORITHM:  WHERE TO PLACE THE DETECTED POSITION WITHIN BLOCK')
+    headString.append('	# BLOCKTOMO_POSITION_ALGORITHM')
+    headString.append('	# what algorithm should be used to convert the interactions within a')
+    headString.append('	# block into a detected position?  The current default is')
+    headString.append('	# = snap_centroid_to_crystal_center')
+    headString.append('	# which takes uses the center of the crystal nearest to the')
+    headString.append('	# energy-weighted centroid of the interactions in active areas')
+    headString.append('	# of the block as the detected position.  The other option is')
+    headString.append('	# = use_energy_weighted_centroid')
+    headString.append('	# which will just use the energy-weighted centroid as the detected')
+    headString.append('	# position - note the latter does not guarantee that the detected')
+    headString.append('	# position will fall within an active area in the block!')
+    headString.append('	ENUM blocktomo_position_algorithm = snap_centroid_to_crystal_center')
+    headString.append('  ')
+    headString.append('# DEFINITION OF RING POSITIONS')
+    headString.append('# Rings are stacked axially.  The axial extent of one ring cannot')
+    headString.append('# overlap that of another.  (If such an arrangement of blocks is')
+    headString.append('# desired, it can be achieved in a single ring.)')
+    headString.append('NUM_ELEMENTS_IN_LIST blocktomo_num_rings = '+ str(detParms['ringNumbers']))
+    headString.append(' ')
+    headString.append('	# PLACEMENT AND DEFINITION OF RING 0')
+    headString.append('	# The rings must be listed by increasing axial position.')
+    headString.append('	# A list of items must be given for each ring: the name of')
+    headString.append('	# the ring parameters file that defines it; the axial shift')
+    headString.append('	# (i.e., the axial position to shift the z=0 point of the slice')
+    headString.append('	# to); and the transaxial rotation, a counterclockwise')
+    headString.append('	# rotation between 0 and 360 degrees.')
+    headString.append(' ')
+
+
+    zOffset1st=0.5*(1-detParms['ringNumbers'])*detParms['BlockLengthZ']
+    for i in range(detParms['ringNumbers']):
+        zOffset=zOffset1st+i*detParms['BlockLengthZ']
+        headString.append('	# Ring ' +str(i))
+        headString.append('	NUM_ELEMENTS_IN_LIST	blocktomo_ring_description_list = 3')
+        headString.append('		STR		blocktomo_ring_parameter_file = "'+detParms['ringparmsfile'] + '"')
+        headString.append('		REAL	blocktomo_ring_axial_shift = '+str(zOffset))
+        headString.append('		REAL	blocktomo_ring_transaxial_rotation =  '+str(detParms['ringTransaxialRotation'])) 
+
+    return headString
+
+if __name__=='__main__':
+    detParms={}
+    detParms.update({'ringNumbers':2})
+    detParms.update({'BlockLengthZ':10.08})
+    detParms.update({'ringTransaxialRotation':90})
+    detParms.update({'ringparmsfile':'PET2L_module.ringparms'})
+
+    detStr=GenerateDet(detParms)
+
+    outfile=r'PET2L_module.detparms'
+    pf=open(outfile,'w')
+
+    for i in range(0,len(detStr)):
+        print(detStr[i])
+        pf.write(detStr[i]+'\n')
+
+    pf.close()
