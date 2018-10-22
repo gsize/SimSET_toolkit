@@ -3,7 +3,7 @@
 def AddHeadFile(ringParms):
     headString=[]
     headString.append('##########################################')
-    headString.append('#  Ring parameter file: PET2L_module.ringparms')
+    headString.append('#  Ring parameter file: PET_module.ringparms')
     headString.append('#  Author/Owner:        gsize')
     headString.append('#  Comments:            '+str(ringParms['rsector_numbers']) + ' blocks per ring')
     headString.append('##########################################')

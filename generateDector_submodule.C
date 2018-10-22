@@ -7,7 +7,7 @@ strstream<<"####################################################################
 strstream<<"#"<<endl;
 strstream<<"#       PARAMETER FILE FOR THE PHG SIMULATION"<<endl;
 strstream<<"#"<<endl;
-strstream<<"#       RUN NAME:	PET2L"<<endl;
+strstream<<"#       RUN NAME:	PET"<<endl;
 strstream<<"#       CREATED:	2018 -8-30"<<endl;
 strstream<<"#       OWNER:		gsize"<<endl;
 strstream<<"#"<<endl;

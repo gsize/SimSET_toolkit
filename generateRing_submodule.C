@@ -15,7 +15,7 @@ int generateRing()
 	std::stringstream strstream;
 	strstream<<"##########################################"<<endl;
 	strstream<<"#"<<endl;
-	strstream<<"#  Ring parameter file: PET2L_1.ringparms"<<endl;
+	strstream<<"#  Ring parameter file: PET.ringparms"<<endl;
 	strstream<<"#  Author/Owner:        gsize"<<endl;
 	strstream<<"#  Comments:            38 blocks per ring"<<endl;
 	strstream<<"#                       ok"<<endl;

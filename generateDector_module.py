@@ -6,7 +6,7 @@ def GenerateDet(detParms):
     headString.append('#')
     headString.append('#       PARAMETER FILE FOR THE PHG SIMULATION')
     headString.append('#')
-    headString.append('#       RUN NAME:	PET2L')
+    headString.append('#       RUN NAME:	PET')
     headString.append('#       CREATED:	2018 -8-30')
     headString.append('#       OWNER:		gsize')
     headString.append('#')
