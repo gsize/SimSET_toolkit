@@ -19,7 +19,7 @@ NUM_ELEMENTS_IN_LIST   ring_num_blocks_in_ring  = 38
  
 # Block    0
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 0.0
 REAL     ring_block_z_position                      = 0.0
@@ -27,7 +27,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    1
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 9.473684210526315
 REAL     ring_block_z_position                      = 0.0
@@ -35,7 +35,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    2
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 18.94736842105263
 REAL     ring_block_z_position                      = 0.0
@@ -43,7 +43,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    3
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 28.421052631578945
 REAL     ring_block_z_position                      = 0.0
@@ -51,7 +51,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    4
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 37.89473684210526
 REAL     ring_block_z_position                      = 0.0
@@ -59,7 +59,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    5
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 47.368421052631575
 REAL     ring_block_z_position                      = 0.0
@@ -67,7 +67,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    6
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 56.84210526315789
 REAL     ring_block_z_position                      = 0.0
@@ -75,7 +75,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    7
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 66.3157894736842
 REAL     ring_block_z_position                      = 0.0
@@ -83,7 +83,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    8
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 75.78947368421052
 REAL     ring_block_z_position                      = 0.0
@@ -91,7 +91,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    9
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 85.26315789473684
 REAL     ring_block_z_position                      = 0.0
@@ -99,7 +99,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    10
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 94.73684210526315
 REAL     ring_block_z_position                      = 0.0
@@ -107,7 +107,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    11
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 104.21052631578947
 REAL     ring_block_z_position                      = 0.0
@@ -115,7 +115,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    12
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 113.68421052631578
 REAL     ring_block_z_position                      = 0.0
@@ -123,7 +123,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    13
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 123.1578947368421
 REAL     ring_block_z_position                      = 0.0
@@ -131,7 +131,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    14
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 132.6315789473684
 REAL     ring_block_z_position                      = 0.0
@@ -139,7 +139,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    15
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 142.10526315789474
 REAL     ring_block_z_position                      = 0.0
@@ -147,7 +147,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    16
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 151.57894736842104
 REAL     ring_block_z_position                      = 0.0
@@ -155,7 +155,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    17
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 161.05263157894734
 REAL     ring_block_z_position                      = 0.0
@@ -163,7 +163,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    18
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 170.52631578947367
 REAL     ring_block_z_position                      = 0.0
@@ -171,7 +171,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    19
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 180.0
 REAL     ring_block_z_position                      = 0.0
@@ -179,7 +179,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    20
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 189.4736842105263
 REAL     ring_block_z_position                      = 0.0
@@ -187,7 +187,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    21
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 198.9473684210526
 REAL     ring_block_z_position                      = 0.0
@@ -195,7 +195,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    22
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 208.42105263157893
 REAL     ring_block_z_position                      = 0.0
@@ -203,7 +203,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    23
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 217.89473684210526
 REAL     ring_block_z_position                      = 0.0
@@ -211,7 +211,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    24
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 227.36842105263156
 REAL     ring_block_z_position                      = 0.0
@@ -219,7 +219,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    25
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 236.84210526315786
 REAL     ring_block_z_position                      = 0.0
@@ -227,7 +227,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    26
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 246.3157894736842
 REAL     ring_block_z_position                      = 0.0
@@ -235,7 +235,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    27
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 255.78947368421052
 REAL     ring_block_z_position                      = 0.0
@@ -243,7 +243,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    28
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 265.2631578947368
 REAL     ring_block_z_position                      = 0.0
@@ -251,7 +251,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    29
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 274.7368421052631
 REAL     ring_block_z_position                      = 0.0
@@ -259,7 +259,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    30
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 284.2105263157895
 REAL     ring_block_z_position                      = 0.0
@@ -267,7 +267,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    31
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 293.6842105263158
 REAL     ring_block_z_position                      = 0.0
@@ -275,7 +275,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    32
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 303.1578947368421
 REAL     ring_block_z_position                      = 0.0
@@ -283,7 +283,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    33
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 312.6315789473684
 REAL     ring_block_z_position                      = 0.0
@@ -291,7 +291,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    34
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 322.1052631578947
 REAL     ring_block_z_position                      = 0.0
@@ -299,7 +299,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    35
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 331.57894736842104
 REAL     ring_block_z_position                      = 0.0
@@ -307,7 +307,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    36
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 341.05263157894734
 REAL     ring_block_z_position                      = 0.0
@@ -315,7 +315,7 @@ REAL     ring_block_transaxial_orientation          =  0.0
  
 # Block    37
 NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5
-STR      ring_block_parameter_file                  = "PET2L_module.blocparms"
+STR      ring_block_parameter_file                  = "PET_module.blocparms"
 REAL     ring_block_radial_position                 = 41.5
 REAL     ring_block_angular_position                = 350.52631578947364
 REAL     ring_block_z_position                      = 0.0

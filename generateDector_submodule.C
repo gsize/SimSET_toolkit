@@ -77,7 +77,7 @@ strstream<<" "<<endl;
 }
 int generateDector()
 {
-	ofstream fout("PET2L_axial96.detparms",ios::out);
+	ofstream fout("PET_axial96.detparms",ios::out);
 	float blockLen=3.38; // unit cm
 	int submoduleNumbersTrans=12;
 
@@ -91,7 +91,7 @@ int generateDector()
 		float  zOffset=zOffset1st+i*blockLen;
 		fout<<"	# Ring "<<i<<endl;
 		fout<<"	NUM_ELEMENTS_IN_LIST	blocktomo_ring_description_list = 3"<<endl;
-		fout<<"		STR		blocktomo_ring_parameter_file = \"PET2L.ringparms\""<<endl;
+		fout<<"		STR		blocktomo_ring_parameter_file = \"PET.ringparms\""<<endl;
 		fout<<"		REAL	blocktomo_ring_axial_shift = "<<zOffset  <<endl;
 		fout<<"		REAL	blocktomo_ring_transaxial_rotation =  90"<<endl;
 	}

@@ -54,12 +54,12 @@ if __name__=='__main__':
     ringParms.update({'ring_z_minimum':-5.04})
     ringParms.update({'ring_z_maximum':5.04})
     ringParms.update({'rsector_numbers':38})
-    ringParms.update({'ring_block_parameter_file':"PET2L_module.blocparms"})
+    ringParms.update({'ring_block_parameter_file':"PET_module.blocparms"})
     ringParms.update({'ring_block_radial_position':41.5})
     ringParms.update({'ring_block_z_position':0.00000})
     ringParms.update({'ring_block_transaxial_orientation':0.00000})
 
-    outfile=r'PET2L_module.ringparms'
+    outfile=r'PET_module.ringparms'
     headStr = AddHeadFile(ringParms)
     ringStr=AddRing(ringParms)
 

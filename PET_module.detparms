@@ -71,11 +71,11 @@ NUM_ELEMENTS_IN_LIST blocktomo_num_rings = 2
  
 	# Ring 0
 	NUM_ELEMENTS_IN_LIST	blocktomo_ring_description_list = 3
-		STR		blocktomo_ring_parameter_file = "PET2L_module.ringparms"
+		STR		blocktomo_ring_parameter_file = "PET_module.ringparms"
 		REAL	blocktomo_ring_axial_shift = -5.04
 		REAL	blocktomo_ring_transaxial_rotation =  90
 	# Ring 1
 	NUM_ELEMENTS_IN_LIST	blocktomo_ring_description_list = 3
-		STR		blocktomo_ring_parameter_file = "PET2L_module.ringparms"
+		STR		blocktomo_ring_parameter_file = "PET_module.ringparms"
 		REAL	blocktomo_ring_axial_shift = 5.04
 		REAL	blocktomo_ring_transaxial_rotation =  90

@@ -45,7 +45,7 @@ strstream<<"NUM_ELEMENTS_IN_LIST   ring_num_blocks_in_ring  = "<<rsectorNumbers*
 		strstream<<"# Block    "<<i*2<<endl;
 	//	strstream<<"# Block    "<<i<<endl;
 		strstream<<"NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5"<<endl;
-		strstream<<"STR      ring_block_parameter_file                  = \"PET2L.blocparms\""<<endl;
+		strstream<<"STR      ring_block_parameter_file                  = \"PET.blocparms\""<<endl;
 		strstream<<"REAL     ring_block_radial_position                 = "<<setprecision(13)<<radialPos <<endl;
 		strstream<<"REAL     ring_block_angular_position                = "<<angPos1 <<endl;
 		strstream<<"REAL     ring_block_z_position                      = 0.00000000000000"<<endl;
@@ -53,14 +53,14 @@ strstream<<"NUM_ELEMENTS_IN_LIST   ring_num_blocks_in_ring  = "<<rsectorNumbers*
 		strstream<<"	 "<<endl;
 		strstream<<"# Block    "<<i*2+1<<endl;
 		strstream<<"NUM_ELEMENTS_IN_LIST   ring_block_description_list  = 5"<<endl;
-		strstream<<"STR      ring_block_parameter_file                  = \"PET2L.blocparms\""<<endl;
+		strstream<<"STR      ring_block_parameter_file                  = \"PET.blocparms\""<<endl;
 		strstream<<"REAL     ring_block_radial_position                 = "<<radialPos <<endl;
 		strstream<<"REAL     ring_block_angular_position                = "<<angPos2 <<endl;
 		strstream<<"REAL     ring_block_z_position                      = 0.00000000000000"<<endl;
 		strstream<<"REAL     ring_block_transaxial_orientation          = "<< angularTransaxialOrient<<endl;
 	}
 
-	ofstream fout("PET2L.ringparms",ios::out);
+	ofstream fout("PET.ringparms",ios::out);
 	fout<<strstream.str();
 	fout.close();
 	return 0;

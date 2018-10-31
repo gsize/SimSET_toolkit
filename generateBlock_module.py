@@ -134,7 +134,7 @@ if __name__=='__main__':
     blockParms.update({'material_index':material_index0})
     blockParms.update({'material_active':material_active0})
 
-    outfile=r'PET2L_module_new_test.blockparms'
+    outfile=r'PET_module_new_test.blockparms'
     headStr = AddHeadFile(blockParms)
     blockStr=AddBlock(blockParms)
     #'''

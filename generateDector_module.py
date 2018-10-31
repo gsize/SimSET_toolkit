@@ -91,11 +91,11 @@ if __name__=='__main__':
     detParms.update({'ringNumbers':2})
     detParms.update({'BlockLengthZ':10.08})
     detParms.update({'ringTransaxialRotation':90})
-    detParms.update({'ringparmsfile':'PET2L_module.ringparms'})
+    detParms.update({'ringparmsfile':'PET_module.ringparms'})
 
     detStr=GenerateDet(detParms)
 
-    outfile=r'PET2L_module.detparms'
+    outfile=r'PET_module.detparms'
     pf=open(outfile,'w')
 
     for i in range(0,len(detStr)):
